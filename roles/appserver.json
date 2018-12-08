@@ -1,0 +1,15 @@
+{
+  "name": "appserver",
+  "default_attributes": { 
+  	"sitename": "appserver",
+  	"database_ip": "",
+  	"database_username": "",
+  	"database_name": "",
+  	"database_password": "",
+    "database_port": ""
+  },
+  "json_class": "Chef::Role",
+  "description": "This is just a test role",
+  "chef_type": "role",
+  "run_list": [ "recipe[op::default]" ]
+}
